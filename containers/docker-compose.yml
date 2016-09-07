@@ -1,6 +1,6 @@
-version: "2"
+#version: "2"
 
-services:
+#services:
   apache:
     # Build from Dockerfile because we want to fix TimeZone as well as have httpd.conf and index.html cooked in it.
     build: apache/
