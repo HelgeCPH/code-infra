@@ -30,6 +30,8 @@
     image: mattgruter/artifactory:3.9.2
     hostname: artifactory
     ## build: artifactory/
+    ports:
+      - "8080:8082"
     volumes:
       - /etc/localtime:/etc/localtime
       - /artifactory/data
