@@ -31,7 +31,7 @@
     hostname: artifactory
     ## build: artifactory/
     ports:
-      - "8080:8082"
+      - "8082:8080"
     volumes:
       - /etc/localtime:/etc/localtime
       - /artifactory/data
